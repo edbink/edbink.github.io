@@ -1,0 +1,171 @@
+.outline {
+	border:1px solid black;
+}
+
+.highlight {
+	background-color:LavenderBlush
+}
+
+.centered-list{
+				text-align: center;
+				list-style-position: inside;
+				padding-left: inherit; /*Get rid of padding to center correctly*/
+				width: 96%;
+        box-sizing: border-box;
+			        }
+
+.centerTable {
+  margin: 0px auto;
+}
+
+header{
+  font-size:20px;
+  background-color: none;
+  padding:5px;
+  margin-bottom:36px;
+  }
+
+.fixed{
+  position:fixed;
+  top:0;
+  left:0;
+  width:200px;
+  }
+
+table {
+  border: 1px solid black;
+  background-color: Bisque;
+  box-sizing: border-box;
+  }
+tr{
+  border:1px dashed black;
+}
+td{
+  border:1px dotted black;
+}
+
+section{
+  background-color:white;
+  margin-bottom:36px;
+  padding:24px;
+  border: 2px solid rebeccapurple;
+}
+
+img{
+  border-radius: 50px 60px 80px;
+}
+
+
+body {
+  font-family: "Sunflower", "Arial", "sans-serif";
+  line-height: 1.4em;
+  text-align: center;
+}
+
+#logo{
+  width: 160px;
+  float: left;
+  }
+
+header nav {
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 16px;
+  }
+
+nav ul{
+  padding-left:0;
+}
+
+.container{
+  width:1100px;
+  margin: 0 auto;
+}
+
+article{
+  width:700px;
+  float:left;
+}
+
+aside{
+  width:250px;
+  float:right;
+  margin-right:200px;
+    }
+
+
+footer {
+  width: 800px;
+  /* display: flex;
+  justify-content: center; */
+  clear: both;
+}
+
+/* #contact-list{
+  display:inline-block;
+} */
+
+aside section ul li{
+  display: inline-block;
+  margin-left: 5px;
+  padding-left:5px;
+  margin: 0 auto;
+}
+
+.kitty{
+  width:240px;
+  position: fixed;
+  bottom: -120px;
+  right:0px;
+}
+
+/* #fixed {
+  position:fixed;
+  top:100px;
+  width:1200px;
+  height:300px;
+  border:2px solid #222;
+}
+
+#absolute{
+  position:absolute;
+  top:100px;
+  width: 600px; height:100px;
+  border: 2px solid #ff2200;
+} */
+
+
+/* .box1{
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  border: 0px none;
+  margin:0;
+  display: inline-block;
+}
+
+.box2{
+  background-color: yellow;
+  width: 80%;
+  height: 80%;
+  padding: 2px;
+  border: 0px none;
+  margin:10px;
+  display: inline-block;
+  position: relative; 50%; 50%; 50%; 50%;
+}
+
+.box3{
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  padding: 0px;
+  border: 30px solid green;
+  margin: 10px;
+  display: inline-block;
+
+} */
