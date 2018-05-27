@@ -1,164 +1,151 @@
-<!-- Skeleton HTML -->
-
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<!-- Links to js and css files go here -->
-		<title>Wello Horld</title>
+  <!-- head part -->
+  <head>
+    <title> Bin's World </title>
 
-		<!-- Link to CSS file -->
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<link rel="stylesheet" href="style.css"/>
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-		<!-- Google Fonts Sunflower -->
-		<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
-	</head>
-	<body background="images\spring.png">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Gridpak Beta CSS -->
+    <link rel="stylesheet" type="text/css" href="grid.css"/>
+     <!-- Normalize CSS  -->
+    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<header>
-		<!-- logo -->
-		<a href="a"><img id="logo" class="fixed" src="images\logo.png"/></a>
+    <!-- Link to JS file -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
 
-		<!-- navigation -->
-		<nav>
-			<ul>
-				<li><a href="a"> About </a></li>
-				<li><a href="a"> Projects </a></li>
-				<li><a href="a"> Contact Me </a></li>
-			</ul>
-		</nav>
-	</header>
+  </head>
 
+  <body>
+    <!-- top header -->
+    <div id="top-header">
+      <nav>
+          <ul id="menu-normal">
+            <li>
+              <a href="a">About</a>
+            </li>
 
+            <li>
+              <a href="a">Resume</a>
+            </li>
 
-		<header>
-				<!--Introduction header -->
-				<h1>Edmund's page</h1><hr/>
-			</header>
-<div class="container">
-		<article>
+            <li>
+              <a href="a">Projects</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
 
-		<section>
-				<p>
-				Welcome to <em>the <strong>dark</strong> side</em>. A page meant to showcase who I am?! *what?!*
-				</p>
-				<a href="https://www.facebook.com/jbkua.edmund" target="_blank"><img src="images\Kua Jingbin Edmund_ 3035143071_ Photo3.jpg" height=350 width=260/>
-				</a>
-		</section>
+    <!-- title banner -->
+    <div class="title-banner">
+      <div class=background-lg-text>Edmund </div>
+      <div class=background-lg-text>Kua</div>
+      <!-- tagline box -->
+      <div class="tagline-box">
+        <div class="tagline">Basketball,</div>
+        <div class="tagline">ภาษาไทย,</div>
+        <div class="tagline">Food &</div>
+        <div class="tagline">Books</div>
+      </div>
+    </div>
 
-		<section>
-				<!--About Me -->
-				<h2>About</h2>
-				    	<a href="https://en.wikipedia.org/wiki/Central_Park"><img src="images\gallery\Kua Jingbin Edmund_ 3035143071_ Photo1.jpg" height=220 width=360 />
-				</a>
+    <!-- Grid container -->
+    <div class="large-container">
+      <br/>
+        <div class="portfolio-container">
+          <div class="row">
+            <!-- Row 1 -->
+            <div class="card-container zoom-effect col span_2">
+              <a href="https://www.facebook.com/jbkua.edmund">
+                <img alt="About Me"  src="images\Kua Jingbin Edmund_ 3035143071_ Photo3.jpg">
+                <div class="card-subtitle">Me & the UNSC</div>
+              </a>
+            </div>
 
-				<p>
-					The name's <span style= "color:green">Edmund</span>. <span class="highlight"><em>Soon-to-be</em> <strong>investment banker </strong> with an interest in <strong>social enterprise</strong> and all things <strong>tech</strong>.
-				  </span><br/>
-			  	Feel free to look through my personal webpage and reach out if any questions!
-			  </p>
-		</section>
+            <div class="card-container zoom-effect col span_2">
+              <a href="https://en.wikipedia.org/wiki/Central_Park">
+                <img alt="Central Park"  src="images\gallery\Kua Jingbin Edmund_ 3035143071_ Photo1.jpg">
+                <div class="card-subtitle">Central Park Adventures</div>
+              </a>
+            </div>
 
-		<section>
-				<!-- Hobbies list -->
-				<p> My hobbies are: </p>
-				<div class="centered-list"><ol>
-					<li> Basketball </li>
-					<li> Football </li>
-					<li> Reading </li>
-					<li> Learning Thai! </li>
-				</ol></div>
-		</section>
+            <div class="card-container zoom-effect col span_2">
+              <a href="https://www.clutchfans.net">
+                <img alt="Houston Rockets" src="images\houston rockets logo.jpg">
+                <div class="card-subtitle">Favourite Basketball Team!</div>
+              </a>
+            </div>
+          </div>
 
-		<section>
-				<!-- Gallery-->
-				<h2>Gallery</h2>
+          <!-- Row 2   -->
+          <div class="row">
 
-			<section>
-				<!-- Sub-Gallery Scenery -->
-				<h3>Scenery</h3>
-				<table class="centerTable">
-					<tr>
-						<td> <img src="images\gallery\photo01.jpeg" /></td><td><img src="images\gallery\photo02.jpeg" /></td><td><img src="images\gallery\photo03.jpeg" /></td>
-					</tr>
-					<tr>
-						<td><img src="images\gallery\photo04.jpeg" /></td><td><img src="images\gallery\photo05.jpeg"/></td><td><img src="images\gallery\photo06.jpeg" /></td>
-					</tr>
-				</table>
-			</section>
-		</section>
+            <div class="card-container zoom-effect col span_2">
+              <a href="https://norazlitaaziz.blogspot.my/2016/06/resepi-nasi-kerabu-kelantan-yang-sangat.html">
+                <img alt="Nasi Kerabu"  src="images\33946312-nasi-kerabu-blue-color-rice-salad-traditional-malaysian-cuisine.jpg">
+                <div class="card-subtitle">Favourite dish!</div>
+              </a>
+            </div>
 
-		<section>
-					<!-- Table -->
-					<br/>
-						<table class="centerTable">
-						<tr>
-							<td><strong> Learning:</strong> </td><td> <img src="http://flags.fmcdn.net/data/flags/w1160/th.png" height=100 width=160/></td>
-						</tr>
-						<tr>
-							<td><strong> Basketball:</strong> </td> <td> <img src="http://1000logos.net/wp-content/uploads/2017/10/houston-rockets-logo-color.jpg" height=120 width=120 /></td>
-						</tr>
-						<tr>
-							<td><strong> Nasi Kerabu: </strong></td> <td><img src="https://c10a109.weebly.com/uploads/1/4/1/5/14152786/9925341_orig.jpg" height=120 width=150 /> </td>
-						</tr>
-			</table>
-		</section>
+            <div class="card-container zoom-effect col span_2">
+              <a href="a">
+                <img alt="agapay"  src="images\capture.png">
+                <div class="card-subtitle">Social Enterprise Idea</div>
+              </a>
+            </div>
 
-		<br/>
-		<section>
-			<!-- Video of the Day -->
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/IKSKz3d03eI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</section>
+            <div class="card-container zoom-effect col span_2">
+              <a href="a">
+                <img alt="NYC" src="images\nycad.jpg">
+                <div class="card-subtitle">NYC Adventures</div>
+              </a>
+            </div>
+          </div>
 
-		<section>
-			<!-- Social Media Link -->
-				<h2>Contact</h2>
-				<p>
-					Find me on:
-				</p>
+     <!-- <description of this website -->
+     <hr/>
+     <section class="center-case">
+        <h2>ABOUT THIS WEBSITE</h2>
+            <p>
+              Welcome to the <em><strong>dark side</strong></em>. A page meant to showcase who I am?! *really???*
+            </p>
 
-				<div class="outline">
-				<ul>
-					<li><a href="https://www.instagram.com/eddybink" target="_blank"> Instagram </a></li>
-					<li><a href="https://www.facebook.com/jbkua.edmund"target="_blank"> Facebook </a></li>
-					<li><a href="https://www.twitter.com/Binzzybiz"target="_blank"> Twitter </a> </li>
-				</ul></div>
-		</section>
-		</article>
-		</div>
+            <hr>
+            <p>
+              The name's <strong>Edmund</strong>. <em>Soon-to-be </em><strong>investment banker</strong> with an interest in <strong>social enterprise</strong> and all things <strong>tech</strong>. Feel free to look through my personal webpage and reach out if any questions!
+            </p>
+      <section>
 
-		<!-- aside box -->
-			<aside>
-				<section>
-				<h2> Contact Me </h2>
-
-				<p>
-					Find me on:
-				</p>
-					<ul>
-						<li><a href="https://www.instagram.com/eddybink"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" height="40px" /></a></li>
-						<li><a href="https://www.facebook.com/jbkua.edmund"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" height="40px"/></a></li>
-						<li><a href="https://www.twitter.com/Binzzybiz"><img src="https://www.sketchappsources.com/resources/source-image/twitterlogo_1x.png" height="40px" /></a></li>
-						</ul>
-
-			</aside>
+    <!-- Contact me -->
+    <section class="center-case">
+      <h2>CONTACT ME</h2>
+          <div class="row">
+            <a href="https://www.facebook.com/jbkua.edmund" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/Binzzybiz" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/eddybink" class="fa fa-instagram"></a>
+          </div>
+    </section>
 
 
-			<!-- footer -->
-			<footer>
-				Copyright &copy; Edmund Kua. Please contact the <a href="mailto:kuaeddy3@connect.hku.hk"> webmaster </a> for any issues with this website.
-			</footer>
+    <!-- footer -->
+    <footer>
+      Copyright &copy; Edmund Kua. Please contact the <a href="mailto:kuaeddy3@connect.hku.hk"> webmaster </a> for any issues with this website.
+    </footer>
 
-<!-- <article id="fixed"> I am a fixed article
-		<div id="absolute"> Im an absolute div </div>
-</article>  -->
-		<!-- box challenge -->
-		<!-- <div class= "box1">
-			<div class="box2">
-				<div class="box3">
-				</div></div></div> -->
-<a href="#"><img class="kitty" src="images\9700830-scottish-fold-cat-grey-on-white-background.jpg"></a> 
+    <!-- cat return to top -->
+    <a href="#"><img class="kitty" src="images\9700830-scottish-fold-cat-grey-on-white-background.jpg"></a>
 
-</body>
+  </body>
 </html>
