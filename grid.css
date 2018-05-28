@@ -17,7 +17,16 @@
     -moz-background-clip:padding-box !important;
     -webkit-background-clip:padding-box !important;
     background-clip:padding-box !important;
+    display: block;
+    margin: 1% 0 1% 1.6%;
 }
+
+/* Clear fix */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
 
 
 
@@ -29,7 +38,7 @@
 
     ----------------------------------------------------------------------------- */
 
-    @media screen and (min-width: 0px) and (max-width: 600px) {
+    @media screen and (min-width: 0px) and (max-width: 768px) {
 
         .col {
             margin-left:1%;
@@ -68,7 +77,7 @@
 
     ----------------------------------------------------------------------------- */
 
-    @media screen and (min-width: 600px) and (max-width: 1080px) {
+    @media screen and (min-width: 768px) and (max-width: 1080px) {
 
         .col {
             margin-left:1%;
@@ -89,7 +98,7 @@
         }
         .span_3 {
             margin-left:0;
-            width:100%;
+            width:100.0%;
         }
     }
 
